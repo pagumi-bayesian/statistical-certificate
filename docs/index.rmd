@@ -1,0 +1,93 @@
+---
+title: "統計検定"
+date: "`r Sys.Date()`"
+output:
+  rmdformats::material:
+    highlight: kate
+---
+
+```{r setup, include=FALSE}
+## Global options
+knitr::opts_chunk$set(cache = TRUE)
+```
+
+# 統計調査士
+
+## 主な基幹統計と作成主体
+
+内閣府(1)
+
+<details><summary>答え</summary>
+
+- **国民経済計算**<sup>**</sup>
+
+</details>
+
+<br>
+
+総務省(6)
+
+<details><summary>答え</summary>
+
+- **国勢統計**
+- **労働力統計**
+- **就業構造基本統計**
+- 個人企業経済統計
+- 小売物価統計
+- **家計統計**
+- **全国家計構造統計**
+- 住宅・土地統計
+- 科学技術研究統計
+- 社会生活基本統計
+- 地方公務員給与実態統計
+- **人口推計**<sup>※*</sup>
+
+</details>
+
+<br>
+
+厚生労働省(4)
+
+<details><summary>答え</summary>
+
+- **人口動態統計**<sup>*</sup>
+- **国民生活基礎統計**
+- **毎月勤労統計**
+- **賃金構造基本統計**
+- 薬事工業生産動態統計
+- 医療施設統計<sup>*</sup>
+- 患者統計
+- 生命表
+- 社会保障費用統計<sup>**</sup>
+
+</details>
+
+<br>
+
+経済産業省(1)
+
+<details><summary>答え</summary>
+
+- 経済産業省生産動態統計
+- 商業動態統計
+- 石油製品需給動態統計
+- 経済産業省企業活動基本統計
+- 経済産業省特定業種石油等消費統計
+- ガス事業生産動態統計
+- **鉱工業指数**
+
+</details>
+
+<br>
+
+総務省・経済産業省(1)
+
+<details><summary>答え</summary>
+
+- 経済構造統計
+
+</details>
+
+# 専門統計調査士
+
+いいいい
