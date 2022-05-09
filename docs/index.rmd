@@ -2,9 +2,16 @@
 title: "統計検定"
 date: "`r Sys.Date()`"
 output:
-  rmdformats::material:
-    highlight: kate
+  html_document:
+    theme:
+      version: 4
+      bootswatch: darkly
+    toc: true
+    toc_float: true
+    code_download: true
 ---
+
+<!-- 参考:https://github.com/atusy/blog/blob/master/static/examples/2021-01-21-rmd-bs4/index.Rmd --> 
 
 ```{r setup, include=FALSE}
 ## Global options
