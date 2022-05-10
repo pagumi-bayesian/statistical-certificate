@@ -3,12 +3,11 @@ services:
         image: rstudio_jp:1.0.0
         container_name: rmarkdown
         build: 
-            context: .
-            dockerfile: Dockerfile
+            context: _rstudio
         volumes: 
-            - ".:/home/rstudio/rmarkdown "
+            - .:/home/rstudio/rmarkdown
         ports:
             - "8787:8787"
         env_file:
-            - rstudio.env
+            - ./_rstudio/rstudio.env
         tty: true

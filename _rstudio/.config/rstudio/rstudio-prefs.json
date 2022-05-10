@@ -1,0 +1,8 @@
+{
+    "reuse_sessions_for_project_links": true,
+    "show_margin": false,
+    "insert_spaces_around_equals": false,
+    "editor_theme": "Cobalt",
+    "posix_terminal_shell": "bash",
+    "show_hidden_files": true
+}
