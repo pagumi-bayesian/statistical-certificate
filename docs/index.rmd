@@ -5,24 +5,36 @@ output:
   html_document:
     theme:
       version: 4
-      bootswatch: darkly
+      bootswatch: minty
     toc: true
     toc_float: true
-    code_download: true
+    code_download: false
 ---
 
 <!-- 参考:https://github.com/atusy/blog/blob/master/static/examples/2021-01-21-rmd-bs4/index.Rmd --> 
 
 ```{r setup, include=FALSE}
-## Global options
-knitr::opts_chunk$set(cache = TRUE)
+library(knitr)
+library(rmdformats)
+library(svglite)
+
+options(max.print="75")
+opts_chunk$set(echo=TRUE,
+               cache=FALSE,
+               prompt=FALSE,
+               tidy=FALSE,
+               comment=NA,
+               message=FALSE,
+               warning=FALSE)
+opts_knit$set(width=75)
+opts_chunk$set(dev="svglite", fig.ext="svg")
 ```
 
-# 統計調査士
+## 統計調査士
 
-## 主な基幹統計と作成主体
+### 主な基幹統計と作成主体
 
-内閣府(1)
+**内閣府** (1)
 
 <details><summary>答え</summary>
 
@@ -32,7 +44,7 @@ knitr::opts_chunk$set(cache = TRUE)
 
 <br>
 
-総務省(6)
+**総務省** (6)
 
 <details><summary>答え</summary>
 
@@ -47,13 +59,13 @@ knitr::opts_chunk$set(cache = TRUE)
 - 科学技術研究統計
 - 社会生活基本統計
 - 地方公務員給与実態統計
-- **人口推計**<sup>※*</sup>
+- **人口推計**<sup>*</sup>
 
 </details>
 
 <br>
 
-厚生労働省(4)
+**厚生労働省** (4)
 
 <details><summary>答え</summary>
 
@@ -71,7 +83,7 @@ knitr::opts_chunk$set(cache = TRUE)
 
 <br>
 
-経済産業省(1)
+**経済産業省** (1)
 
 <details><summary>答え</summary>
 
@@ -87,7 +99,7 @@ knitr::opts_chunk$set(cache = TRUE)
 
 <br>
 
-総務省・経済産業省(1)
+**総務省・経済産業省** (1)
 
 <details><summary>答え</summary>
 
@@ -95,6 +107,6 @@ knitr::opts_chunk$set(cache = TRUE)
 
 </details>
 
-# 専門統計調査士
+## 専門統計調査士
 
 いいいい
