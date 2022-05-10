@@ -10,4 +10,6 @@ services:
             - "8787:8787"
         env_file:
             - ./_rstudio/rstudio.env
+        environment:
+            - DISABLE_AUTH=true
         tty: true
